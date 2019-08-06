@@ -1,0 +1,48 @@
+<html>
+<head>
+	<base href="D:\HTML5\Images\">
+	<link type="text/css" rel="stylesheet" href="style1.css">
+</head>  
+<body > 
+	<p class="parastyle">E-commerce Site</p>
+	<display><left><a href="Home.html">Home</a>
+	<a href="About.html">About us</a>
+	<a href="Contact Us.html">Contact Us</a>		
+	</left>
+<nav>
+	<a href="#">Log-in</a>
+	&nbsp
+	<a href="#">Sign-up</a>
+</nav>
+<div>
+ 	 <figure>
+   		<img src="./shoe.jpeg" height="200" width="200" />
+ 		<figcaption>Casual Shoe</figcaption>
+	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./shampoo.jpg" height="200" width="200"/>
+		<figcaption>Head&Shoulder's Shampoo </figcaption>
+ 	 </figure>
+</div>
+<div>
+	<figure>
+  		<img src="./laptop.jpg" height="200" width="200"/>
+		<figcaption>Laptop </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./watch.jpg" height="200" width="200"/>
+		<figcaption>Digital watch </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./iphone6s.jpg" height="200" width="200"/>
+		<figcaption>I-phone6s </figcaption>
+  	</figure>
+</div>
+</body>
+</html>

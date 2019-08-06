@@ -1,0 +1,153 @@
+
+<html>
+	<head>
+		<base href="D:\HTML5\Images\">
+	<style>
+div
+ 		{ 
+			height:100;
+			width:250;	
+			display:inline-block;
+ 		}
+a:link;
+		{
+			color:blue;
+		}
+h1
+		{
+			font-size:50px;
+			color:Black;
+			font-style:Times New Roman;
+			font-weight:bold;
+			text-align:center;
+			text-indent:25px;
+			line-height:30pt;
+			text-align:center;
+		}
+.dropdown 
+		{
+ 			position: relative;
+  			display: inline-block;
+			background-color: white;
+ 			min-width: 160px;
+  			padding: 10px 14px;
+  			z-index: 1;
+		}
+.dropdown-content 
+		{
+			display: none;
+ 		 	position: absolute;
+  			background-color: white;
+ 			min-width: 160px;
+  			padding: 12px 16px;
+  			z-index: 1;
+		}
+.dropdown-content a 
+		{
+  			color: black;
+  			padding: 12px 16px;
+  			text-decoration: none;
+ 		 	display: block;
+		}
+.dropdown-content a:hover 
+		{
+			background-color: grey;
+		}
+.dropdown:hover .dropdown-content
+		 {
+  			display: block;
+		}
+</style>
+	</head>
+		<body>
+			<h1 style="float:center;">$Burma Bazzar$</h1>
+			<label class="dropdown" style="float:left;">
+			 <label>Menu</label>
+ 			 <label class="dropdown-content" style="left:0;">
+ 			<label>
+			<a href="#Account">Account</a>
+			</label> 
+
+			<label>
+			<a href="#Category">Category</a>
+			</label>
+			<label>
+			<a href="#Offers">Offers</a>
+			</label>
+  		</label>
+		</label>
+			<label class="dropdown"style="float:right;">
+			<label>Home</label>
+			<label class="dropdown-content">
+			<label>	<a href="#">About-us</a>	</label>
+			<label> 	<a href="#">Contact-us</a> 	</label>
+			<label>	<a href="#">News</a>	</label>
+			</label>	</label>
+		<label><a class="dropdown" style="float:right;" href="#">Sign-up</a>
+		<label><a class="dropdown" style="float:right;" href="#">Log-in</a></label>
+		<label><a class="dropdown" style="float:right;" href="#">Location</a></label>
+		<label><a class="dropdown" style="float:right;" href="#">Cart</a></label>
+		<label><a class="dropdown" style="float:right;" href="#">Wish-list</a></label></label><br><br><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<div>
+ 	 <figure>
+   		<img src="./Shoee.jpeg" height="200" width="200" />
+ 		<figcaption>Casual Shoe</figcaption>
+	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./shampoo.jpg" height="200" width="200"/>
+		<figcaption>Head&Shoulder's Shampoo </figcaption>
+ 	 </figure>
+</div>
+<div>
+	<figure>
+  		<img src="./laptop.jpg" height="200" width="200"/>
+		<figcaption>Laptop </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./watch.jpg" height="200" width="200"/>
+		<figcaption>Digital watch </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./iphone6s.jpg" height="200" width="200"/>
+		<figcaption>I-phone6s </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./powerbank.jpg" height="200" width="200"/>
+		<figcaption>Mi 10000mah PowerBank </figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./Camera.jpg" height="200" width="200"/>
+		<figcaption>Camera</figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./bluetooth.jpg" height="200" width="200"/>
+		<figcaption>Bluetooth Headphone</figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./iron box.jpg" height="200" width="200"/>
+		<figcaption>Iron-Box</figcaption>
+  	</figure>
+</div>
+<div>
+	<figure>
+  		<img src="./lapbag.jpg" height="200" width="200"/>
+		<figcaption>LapBag </figcaption>
+  	</figure>
+</div>
+</body>
+</html>
