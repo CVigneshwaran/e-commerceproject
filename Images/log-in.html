@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>LOG-IN</title>
+<style>
+input[type=text], select {
+  width: 250;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 250;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=button] {
+  width: 250;
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border:1px;
+  border-radius: 4px;
+}
+
+input[type=button]:hover {
+  background-color:green;
+}
+
+div {
+	text-align:center;
+	border-radius: 5px;
+	background-color:burlywood;
+	padding: 150px;
+}
+table{
+text-align:cener;
+}
+</style>
+<script>
+class user{
+
+}
+function validate()
+{
+var login=document.forms["myformobject"]["username"].value;
+var passwordtext=document.forms["myformobject"]["passwordtext"].value;
+document.write(login)
+document.write(passwordtext)
+}
+</script>
+</head>
+<body>
+<table><div>
+<form action='' name='myformobject'>
+Enter Username
+<input type='text' name='username' /><br><br>
+Enter password:
+<input type='password' name='passwordtext'/><p>*Password must contain atleast 6 characteristics with uppercase,lowercase.*</p>
+<br><br>
+<input type='button' value='log-in' onclick='validate()'/>
+
+</form>
+<a href="D:\HTML5\Images\sign-up.html"><input type='button' value='Sign-up' /></a> 
+</div></table>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+div {
+	text-align:center;
+	border-radius: 5px;
+	background-color:lightgrey;
+	padding: 150px;
+}
+</style>
+<script>
+class user
+{
+}
+function validate()
+{
+var login=document.forms["myformobject"]["login"].value;
+var passwordtext=document.forms["myformobject"]["passwordtext"].value;
+console.log(login)
+console.log(passwordtext)
+document.write(passwordtext)
+}
+</script>
+</head>
+<body>
+<table><div>
+<form  action=' ' name='myformobject'>
+Enter Username
+<input type='text' name='login' /><br><br>
+Enter password:
+<input type='password' name='passwordtext'/><p>*Password must contain atleast 8 characteristics with uppercase,lowercase.*</p>
+<br><br>
+<input type='submit' value='log-in' onclick='validate()'/>
+	
+</form>
+<input type='submit' value='Sign-up'/>
+</div></table>
+</body>
+</html>

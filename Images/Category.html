@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CATEGORY PAGE</title>
+<style>
+input[type=text], select {
+  width: 250;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 250;
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border:1px;
+  border-radius: 4px;
+}
+input[type=reset] {
+  width: 250;
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border:1px;
+  border-radius: 4px;
+}
+input[type=reset]:hover {
+  background-color:green;
+}
+
+
+input[type=button]:hover {
+  background-color:green;
+}
+
+div {
+	text-align:center;
+	border-radius: 5px;
+	background-color:lightgrey;
+	padding: 150px;
+}
+table ,th,td {
+boder:1px solid black;
+text-align:cener;
+}
+</style>
+<script>
+var arr=[];
+function validate()
+{
+var Categoryname = document.forms["myform"]["Categoryname"].value;
+
+if(Categoryname.trim().length==0)
+{
+console.log("there is no character")
+}
+else
+{
+var user={"Categoryname":Categoryname}
+arr.push(user)
+}}
+function display()
+{
+document.write("<table border='1'>")
+document.write("<th>Categoryname")
+document.write("<br>")
+for(i=0;i<arr.length;i++)
+{
+document.write("<tr>")
+document.write("<td>")
+document.write(arr[i].Categoryname)
+document.write("</td>")
+document.write("</tr>")
+}
+}
+</script>
+</head>
+<body>
+<table><div><h1>CATEGORY DETAILS</h1>
+<form action='#' name='myform'>
+Enter Categoryname
+<input type='text' name='Categoryname' /><br><br>
+<input type='reset' value='Proceed' onclick='validate()'/>
+<input type='button' value='Display' onclick='display()'/>
+</form>
+</div>
+</table>
+</body>
+</html>

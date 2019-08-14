@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width:200;
+  padding: 12px;
+  border: 1px solid ;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], textarea {
+  width:200;
+  padding: 12px;
+  border: 1px solid ;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 20px;
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=password], select {
+  width: 250;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100;
+    margin-top: 0;
+  }
+}
+div {
+	text-align:center;
+	border-radius: 5px;
+	background-color:lightgrey;
+	padding:50px;
+}
+</style>
+</head>
+<body>
+
+    <div>
+	<h2 style="text-align:center">Sign-Up</h2>
+      <label>First Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></td><br><br>
+	 <label>Last Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     <input type="text"><br><br>
+	  <label>Mobile No</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="text"><span id="numloc"></span><br><br>
+	  <label>E-mail id:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="text"><br><br>
+	  <label>Enter password:</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type='password' id='password control'/><br><br>
+		<label>Confirm password:</label>&nbsp
+		<input type='password' id='password control'/><br><br>
+      <label for="Gender">Gender</label>
+      <select id="Gender" name="Gender">
+        <option value="australia">Male</option>
+        <option value="canada">Fe-male</option>
+        <option value="usa">Others</option>
+      </select><br></tr>
+    <input type="submit" value="Submit"></div>
+  </form>
+</body>
+</html>
